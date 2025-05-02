@@ -1,0 +1,38 @@
+body{
+  font-family: "Playwrite RO", cursive;
+  color:olivedrab;
+}
+html,body{
+    height:100%;
+  }
+h4, div{
+  text-align: center;
+}
+li>a{
+  text-decoration: none;
+  color:olivedrab;
+}
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+
+  ul.nav li{
+    display: inline;
+    margin: 50px
+  }
