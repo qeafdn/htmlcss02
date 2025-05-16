@@ -1,5 +1,5 @@
 body{
-  font-family: "Playwrite RO", cursive;
+  font-family: "Montserrat", sans-serif;
   color:olivedrab;
 }
 html,body{
@@ -12,6 +12,7 @@ li>a{
   text-decoration: none;
   color:olivedrab;
 }
+
 
   aside#left{
     float:left; 
@@ -32,7 +33,34 @@ li>a{
     clear:both;
   }
 
+  ul.footer li{
+    display: inline;
+    margin: 50px
+  }
+
+  ul.nav{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    padding: 15 10px;
+  }
   ul.nav li{
     display: inline;
     margin: 50px
   }
+  img{
+    opacity: 1.0;
+}
+img:hover{
+  opacity: 0.5;
+}
+
+img:hover{
+    opacity: 0.5;
+    transform: translate(0px, 100px);
+}
+
+img:hover{
+  transition: 5s;
+}
+
+
