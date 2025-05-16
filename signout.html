@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border: 2px solid darkcyan;
+            border-radius: 20px;
+        }
+
+        input[type=button]{
+            background-color: darkcyan;
+            border: none;
+            color: white
+        }
+      
+        input[type=submit]{
+           background-color: darkcyan;
+          border: none;
+            color:white;
+         padding: 16px 30px;
+        }
+        input[type=reset]{
+           background-color: white;
+          border: 2px solid darkcyan;
+            color:darkcyan;
+         padding: 16px 30px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1>signout</h1>
+    <form method="get" action="index.php">
+        <p>아이디 <input type="text"> <input type="button" value="중복검사"> </p>
+        <p>패스워드 <input type="password"></p>
+        <p>패스워드 확인<input type="password"></p>
+        <p>이름 <input type="text"></p>
+        <p>휴대폰 번호 <input type="text"></p>
+        <p>이메일 <input type="text"></p>
+        <p>생일 <input type="text"></p>
+        <p>성별</p>
+        <p><input type="radio" name="famale"> 여성</p>
+        <p><input type="radio" name="male"> 남성</p>
+        <p>
+            <input type="submit" value="제출">
+            <input type="reset" value="초기화">
+        </p>
+    </form>
+</body>
+</html>
